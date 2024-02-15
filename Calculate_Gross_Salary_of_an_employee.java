@@ -9,9 +9,7 @@ public class Example
         float DA=sc.nextFloat();
         float PF=(Basic_sal*12)/(100);
         float Gross_sal=Basic_sal+HRA+DA+PF;
-        System.out.printf("%.2f
-",PF);
-        System.out.printf("%.2f
-",Gross_sal);
+        System.out.printf("%.2f\n",PF);
+        System.out.printf("%.2f\n",Gross_sal);
     }
 }
