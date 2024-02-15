@@ -6,10 +6,9 @@ public class Example
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int hours=n/3600;
-        int rhours=n%3600;
-        int min=rhours/60;
-        int rmin=rhours%60;
-        int sec=rmin/1;
+        int rsec=n%3600;
+        int min=rsec/60;
+        int sec=rsec%60;
         System.out.println("H:M:S-"+hours+":"+min+":"+sec);
     }
 }
